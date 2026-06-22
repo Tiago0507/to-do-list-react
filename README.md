@@ -4,6 +4,8 @@
 
 Aplicación de gestión de tareas desarrollada con React y Vite. Permite agregar, completar, eliminar y filtrar tareas, con persistencia en el navegador y soporte para tema claro y oscuro.
 
+[Visitar la aplicación](https://to-do-list-react-seven-gamma.vercel.app/)
+
 ## Requisitos previos
 
 - [Node.js](https://nodejs.org/) v18 o superior.
