@@ -13,7 +13,7 @@ export default function TodoStats({ stats }) {
           <circle
             cx="40" cy="40" r="36"
             fill="none"
-            stroke="var(--color-border)"
+            stroke="var(--color-border-hover)"
             strokeWidth="6"
           />
           <circle
@@ -34,8 +34,8 @@ export default function TodoStats({ stats }) {
           />
           <defs>
             <linearGradient id="progressGradient" x1="0%" y1="0%" x2="100%" y2="100%">
-              <stop offset="0%" stopColor="#2563eb" />
-              <stop offset="100%" stopColor="#16a34a" />
+              <stop offset="0%" stopColor="var(--color-primary)" />
+              <stop offset="100%" stopColor="var(--color-success)" />
             </linearGradient>
           </defs>
         </svg>
